@@ -1,0 +1,43 @@
+/* =========================================
+   CSS RESET MODERNO
+========================================= */
+
+/* 1. Faz o padding e a borda não aumentarem o tamanho final das caixas */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+/* 2. Remove margens e espaçamentos padrão de todos os elementos */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* 3. Melhora a renderização de fontes e evita rolagem horizontal acidental */
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+}
+
+/* 4. Garante que imagens e vídeos nunca ultrapassem a largura da tela */
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* 5. Faz inputs e botões herdarem a fonte principal do seu site */
+input, button, textarea, select {
+    font: inherit;
+}
+
+/* 6. Remove sublinhado padrão dos links e herda a cor do texto */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* 7. Remove as bolinhas/números padrão das listas */
+ul, ol {
+    list-style: none;
+}
